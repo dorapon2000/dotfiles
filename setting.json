@@ -1,0 +1,61 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "simple-icons",
+    "workbench.colorTheme": "Syntax Material Dark",
+    // "workbench.editor.enablePreview": false,
+    "editor.quickSuggestionsDelay": 10,
+    "editor.suggest.localityBonus": true,
+    "editor.minimap.enabled": false,
+
+    "[plaintext]": {
+        "editor.wordWrap": "on"
+    },
+    "[markdown]": {
+        "editor.wordWrap": "on"
+    },
+
+    /** python START **/
+    // https://qiita.com/psychoroid/items/2c2acc06c900d2c0c8cb
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501,W503,W504,E129",
+    ],
+    "python.formatting.provider": "autopep8",
+    "[python]": {
+        "editor.formatOnSave": true,
+    },
+    "python.formatting.autopep8Args": [
+        "--ignore=E501,E129"
+    ],
+    /** python END **/
+
+    /** Perl START **/
+    "[perl]": {
+        "editor.formatOnSave": true,
+    },
+    "perltidy.executable": "/Users/dorapon/.plenv/versions/5.30/bin/perltidy",
+    "perltidy.additionalArguments": [
+        "-naws",
+        "--maximum-line-length=120"
+    ],
+    "perl-toolbox.lint.path": "/Users/dorapon/.plenv/versions/5.30/bin/perlcritic",
+    
+    /** Perl END **/
+
+    /** HTML START **/
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "emmet.triggerExpansionOnTab": true,
+    /** HTML END **/
+
+    /** js START **/
+    "[javascript]": {
+        "editor.tabSize": 4
+    },
+    "standard.autoFixOnSave": true,
+    /** js END **/
+}

@@ -1,0 +1,6 @@
+[user]
+	name = dorapon
+	email = dorapon2000@gmail.com
+[core]
+	editor = emacs
+	excludesfile = ~/.gitignore_global
